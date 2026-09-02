@@ -1,0 +1,11 @@
+系统镜像（固件）未纳入本 Git 仓库
+====================================
+
+原镜像文件：atk_dlt113is_buildroot_rgb-10p1-800p_uart0ZongLinQt.img
+体积约 392MB，超过 GitHub 单个文件 100MB 上限，无法按普通文件提交，
+因此本目录在版本库中仅保留此说明。
+
+本地原始副本位置：
+    /home/wp20/linux-imx6/XiangMu/Modbuscailiao/系统镜像/atk_dlt113is_buildroot_rgb-10p1-800p_uart0ZongLinQt.img
+
+后续如需随仓库分发，可改用 GitHub Release 附件或 Git LFS 上传。

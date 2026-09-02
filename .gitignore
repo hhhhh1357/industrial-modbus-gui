@@ -1,0 +1,22 @@
+# ---------- Qt Creator 用户配置（每台电脑都不一样，不入库） ----------
+*.pro.user
+*.pro.user.*
+
+# ---------- Qt 编译产物 ----------
+build-*/
+Makefile
+Makefile.*
+*.o
+*.obj
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# ---------- 系统镜像（392MB，超过 GitHub 单文件 100MB 上限，不入库） ----------
+**/*.img
+
+# ---------- 系统 / 临时文件 ----------
+*~
+.DS_Store
+*.swp

@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/myImages">
+        <file>Images/e2e12fc7abeff051ae4632ca527482e1.png</file>
+        <file>Images/透明怡衫LOGO.png</file>
+        <file>Images/图标绘制要求.png</file>
+        <file>Images/图标绘制要求 (1).png</file>
+        <file>Images/图标绘制要求 (2).png</file>
+        <file>Images/图标绘制要求 (3).png</file>
+        <file>Images/图标绘制要求 (4).png</file>
+        <file>Images/图标绘制要求 (5).png</file>
+        <file>Images/图标绘制要求 (6).png</file>
+        <file>Images/2222.png</file>
+    </qresource>
+</RCC>

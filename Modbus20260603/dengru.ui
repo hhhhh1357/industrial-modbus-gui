@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dengru</class>
+ <widget class="QWidget" name="Dengru">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>40</width>
+    <height>40</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>70</y>
+     <width>261</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+font: 16pt &quot;Ubuntu&quot;;
+color: rgb(52, 101, 164);
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>用户权限登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>460</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+	color: rgb(0, 0, 0);
+ 	border-radius: 6px; 
+}
+
+QPushButton:pressed {  
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+ 	border-radius: 6px; 
+}
+</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>299</y>
+     <width>300</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ComboBox">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>190</y>
+     <width>271</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    background: rgb(114, 159, 207);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    font: 12pt &quot;Ubuntu&quot;;
+    selection-background-color: rgb(138, 226, 52);
+    selection-color: rgb(0, 0, 0);
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: center right;  /* 箭头在右侧居中 */
+    width: 36px;                        /* 箭头按钮宽度 */
+    height: 52px;                   
+}
+
+QComboBox QAbstractItemView {
+    background-color: #f0f0f0;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    selection-background-color: rgb(138, 226, 52);
+    outline: 0;
+    font-size: 14px;
+}
+
+QComboBox QAbstractItemView::item {
+    min-height: 30px; 
+    padding: 8px;
+    border-bottom: 1px solid #d0d0d0; 
+    font-size: 14px;
+}
+
+QComboBox QAbstractItemView::item:selected {
+    background-color: rgb(138, 226, 52);
+}
+</string>
+   </property>
+   <property name="maxVisibleItems">
+    <number>40</number>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QComboBox::AdjustToMinimumContentsLength</enum>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>80</width>
+     <height>80</height>
+    </size>
+   </property>
+   <item>
+    <property name="text">
+     <string>开发者</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>管理者</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>查询者</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="LineEdit">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>320</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px;</string>
+   </property>
+   <property name="placeholderText">
+    <string>请输入密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>190</y>
+     <width>140</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font: 13pt &quot;Ubuntu&quot;;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>用户名：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label_2">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>320</y>
+     <width>105</width>
+     <height>53</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font: 13pt &quot;Ubuntu&quot;;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>密码：</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,5405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>screen_2</class>
+ <widget class="QWidget" name="screen_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>1141</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:  transparent;</string>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page"/>
+   <widget class="QWidget" name="page_1">
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>530</y>
+       <width>1111</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>8</y>
+        <width>58</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>首页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>71</x>
+        <y>8</y>
+        <width>87</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>上一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>8</y>
+        <width>87</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>下一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>269</x>
+        <y>8</y>
+        <width>58</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>尾页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="geometry">
+       <rect>
+        <x>836</x>
+        <y>8</y>
+        <width>116</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>更新数据</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>964</x>
+        <y>8</y>
+        <width>116</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>导出数据</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget1" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1111</width>
+       <height>531</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1131</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>540</y>
+       <width>1131</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_16">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>8</y>
+        <width>87</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>上一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="geometry">
+       <rect>
+        <x>124</x>
+        <y>8</y>
+        <width>87</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>下一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_39">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>10</y>
+        <width>116</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>更新数据</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>141</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+font: 10pt ;
+color: rgb(52, 101, 164);</string>
+     </property>
+     <property name="text">
+      <string>1.元件状态</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>141</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+font: 10pt ;
+color: rgb(52, 101, 164);</string>
+     </property>
+     <property name="text">
+      <string>2.运行状态</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>360</y>
+       <width>141</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+font: 10pt ;
+color: rgb(52, 101, 164);</string>
+     </property>
+     <property name="text">
+      <string>3.检测参数</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>440</y>
+       <width>301</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+font: 10pt ;
+color: rgb(52, 101, 164);</string>
+     </property>
+     <property name="text">
+      <string>整点启动时点:(红色启动)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>0</y>
+       <width>171</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+font: 10pt ;
+color: rgb(52, 101, 164);</string>
+     </property>
+     <property name="text">
+      <string>4.传感器信号</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>110</y>
+       <width>171</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+font: 10pt ;
+color: rgb(52, 101, 164);</string>
+     </property>
+     <property name="text">
+      <string>5.工作参数</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_39">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>460</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+font: 10pt ;
+color: rgb(52, 101, 164);</string>
+     </property>
+     <property name="text">
+      <string>6.运行监控</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line_5">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>0</y>
+       <width>20</width>
+       <height>611</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_81">
+     <property name="geometry">
+      <rect>
+       <x>930</x>
+       <y>290</y>
+       <width>122</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>140</y>
+       <width>471</width>
+       <height>321</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_9">
+      <item row="6" column="3">
+       <widget class="QLabel" name="label_115">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLabel" name="label_93">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>机箱温度：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="label_118">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="label_94">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>液面阀值千分比：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2">
+       <widget class="QLabel" name="label_102">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>固件版本：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QLabel" name="label_114">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_90">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>消解温度(度)：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_85">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="label_101">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>检测总时长(分)：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLabel" name="label_121">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_92">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>高位空杯基准：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="label_99">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>标样返回圈数：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_86">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_103">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>空管上限千分比：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLabel" name="label_120">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="label_117">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLabel" name="label_83">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_95">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>低位空杯基准：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_97">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>洗润次数：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_87">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>外接泵循环(秒)：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label_89">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="label_100">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>水样返回圈数：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLabel" name="label_113">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLabel" name="label_119">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLabel" name="label_91">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_96">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>排液次数：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="3">
+       <widget class="QLabel" name="label_116">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_82">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_104">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>清洗次数：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label_84">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_88">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>消解时间(分钟):</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_98">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>空管下限千分比：</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget_7">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>500</y>
+       <width>471</width>
+       <height>102</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_10">
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_108">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>低位增量电压：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_112">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>上位机命令：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_122">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label_124">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_126">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>25002</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_110">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>程序版本：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLabel" name="label_128">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_109">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>V2:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_106">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>V1:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_125">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="label_111">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>高位增量电压：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label_127">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_123">
+     <property name="geometry">
+      <rect>
+       <x>940</x>
+       <y>570</y>
+       <width>23</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>480</y>
+       <width>631</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="2" column="2">
+       <widget class="QCheckBox" name="checkBox_18">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>18</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBox_17">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>17</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QCheckBox" name="checkBox_11">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>11</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="QCheckBox" name="checkBox_7">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="checkBox_1">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QCheckBox" name="checkBox_12">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>12</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="6">
+       <widget class="QCheckBox" name="checkBox_22">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>22</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QCheckBox" name="checkBox_5">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7">
+       <widget class="QCheckBox" name="checkBox_23">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>23</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <widget class="QCheckBox" name="checkBox_14">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>14</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBox_8">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBox_0">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }
+
+</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBox_16">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>16</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="checkBox_10">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>10</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QCheckBox" name="checkBox_4">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="checkBox_9">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QCheckBox" name="checkBox_6">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QCheckBox" name="checkBox_19">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>19</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <widget class="QCheckBox" name="checkBox_15">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>15</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QCheckBox" name="checkBox_20">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>20</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="5">
+       <widget class="QCheckBox" name="checkBox_21">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>21</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QCheckBox" name="checkBox_13">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"> QCheckBox {
+        spacing: 8px;  
+	color: rgb(115, 210, 22);
+    }
+    QCheckBox::indicator {
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        background:rgb(138, 226, 52);
+    }
+    QCheckBox::indicator:checked {
+       background: rgb(239, 41, 41);
+       border-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string>13</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>631</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButton_19">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>水样阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButton_18">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>标样核查</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pushButton_20">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>清洗废液</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="pushButton_21">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>采水泵</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QPushButton" name="pushButton_22">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>加热丝</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButton_23">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>试剂一阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="pushButton_24">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>量程阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="pushButton_25">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>消解上阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="pushButton_26">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>唤气风扇</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QPushButton" name="pushButton_27">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>泵正转</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="pushButton_32">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>试剂二阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="pushButton_29">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>蒸馏水</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="pushButton_28">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>消解下阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QPushButton" name="pushButton_31">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>冷却风扇</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QPushButton" name="pushButton_30">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>泵反转</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="pushButton_37">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>试剂三阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="pushButton_34">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>废液阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="pushButton_33">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px;
+	font: 9pt ;
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>比色阀</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 9pt ;</string>
+        </property>
+        <property name="text">
+         <string>泵速度：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QLabel" name="label_68">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>631</width>
+       <height>82</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_5">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>当前量程：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_69">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>当前命令：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3" colspan="2">
+       <widget class="QLabel" name="label_70">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 10pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="text">
+         <string>运行步骤：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>当前状态：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label_71">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3" colspan="2">
+       <widget class="QLabel" name="label_72">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>400</y>
+       <width>631</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>检测模式：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_74">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_12">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>检测目标次数：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_75">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>启动周期分钟：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QLabel" name="label_76">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>41</y>
+       <width>471</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_7">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_15">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>低位信号：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="2">
+       <widget class="QLabel" name="label_77">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_19">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>高位信号：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_18">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>比色皿温度：</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="2">
+       <widget class="QLabel" name="label_79">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label_78">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLabel" name="label_80">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label_17">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+font: 8pt ;</string>
+        </property>
+        <property name="text">
+         <string>比色信号：</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <widget class="QWidget" name="widget_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1141</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>1141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>8</y>
+        <width>87</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>上一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_35">
+      <property name="geometry">
+       <rect>
+        <x>114</x>
+        <y>8</y>
+        <width>87</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>下一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_40">
+      <property name="geometry">
+       <rect>
+        <x>1010</x>
+        <y>0</y>
+        <width>116</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>更新数据</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <widget class="QWidget" name="widget_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1131</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>1131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_36">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>87</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>上一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_38">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>0</y>
+        <width>87</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>下一页</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_41">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>0</y>
+        <width>116</width>
+        <height>44</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+      </property>
+      <property name="text">
+       <string>更新数据</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_6">
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <widget class="QListWidget" name="listWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>130</y>
+       <width>111</width>
+       <height>299</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QListWidget {  
+	background: rgb(114, 159, 207);      
+	color: rgb(255, 255, 255);
+ border-radius: 10px;
+	font: 10pt ;
+        }
+        QListWidget::item {
+          border: none;
+		border-radius: 10px;
+		padding: 28px 13px;
+ background: transparent;
+        }
+        QListWidget::item:selected {     
+		background: rgb(138, 226, 52);
+		border-bottom: rgb(114, 159, 207);
+         font-weight: bold;
+        }
+        QListWidget::item:hover:!selected {     
+	background: rgb(114, 159, 207);
+        }
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 0px; /* 设置为0以完全隐藏 */
+}
+
+QScrollBar::handle:horizontal {
+    background: transparent;
+}</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="movement">
+      <enum>QListView::Static</enum>
+     </property>
+     <item>
+      <property name="text">
+       <string>测量数据</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>状态告警</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>关键参数1</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>关键参数2</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+    </widget>
+    <widget class="QWidget" name="widget_11" native="true">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>0</y>
+       <width>1011</width>
+       <height>591</height>
+      </rect>
+     </property>
+     <widget class="QStackedWidget" name="stackedWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1011</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: transparent;</string>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="page_13"/>
+      <widget class="QWidget" name="page_9">
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1001</width>
+          <height>601</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">   QTableWidget {
+           background: transparent;
+		gridline-color: rgb(114, 159, 207);     
+	border-radius: 4px; 
+
+ }
+QTableWidget::item {
+            background: transparent;
+           padding: 5px;		
+ 			text-align: center;
+			color: rgb(0, 0, 0);
+ 			border-left: 1px solid rgb(114, 159, 207);
+}
+ QHeaderView::section:horizontal {
+		background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #f0f8f8,  stop:0.5 #e8f0f0, stop:1 #e0e8e8); 
+      color: rgb(0, 0, 0);                 
+       font-weight: bold;                            
+      border: 1px solid rgb(114, 159, 207);
+ border-radius: 4px;
+	padding: 5px;
+height: 30px;
+ }
+QHeaderView::section:vertical {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 1px solid rgb(114, 159, 207);
+    padding: 5px;
+}
+ QLineEdit {   
+	background: rgb(114, 159, 207);
+	color: rgb(239, 41, 41);
+ border: 1px solid rgb(114, 159, 207);
+ border-radius: 4px;
+    }</string>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="autoScroll">
+         <bool>true</bool>
+        </property>
+        <property name="textElideMode">
+         <enum>Qt::ElideMiddle</enum>
+        </property>
+        <property name="rowCount">
+         <number>15</number>
+        </property>
+        <property name="columnCount">
+         <number>6</number>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>160</number>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderMinimumSectionSize">
+         <number>25</number>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>32</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>描述</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>数值</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>描述</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>数值</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>描述</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>数值</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>因子编码</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>21003</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>空白数据时间</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="0" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="0" column="4">
+         <property name="text">
+          <string>加标数据时间</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="0" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>单位</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="1" column="1">
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item row="1" column="2">
+         <property name="text">
+          <string>空白实测值</string>
+         </property>
+        </item>
+        <item row="1" column="3">
+         <property name="text">
+          <string>0.000</string>
+         </property>
+        </item>
+        <item row="1" column="4">
+         <property name="text">
+          <string>加标实测值</string>
+         </property>
+        </item>
+        <item row="1" column="5">
+         <property name="text">
+          <string>0.000</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>标样参考值</string>
+         </property>
+        </item>
+        <item row="2" column="1">
+         <property name="text">
+          <string>2.00</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="2" column="2">
+         <property name="text">
+          <string>空白数据标识</string>
+         </property>
+        </item>
+        <item row="2" column="3">
+         <property name="text">
+          <string>78</string>
+         </property>
+        </item>
+        <item row="2" column="4">
+         <property name="text">
+          <string>加标数据标识</string>
+         </property>
+        </item>
+        <item row="2" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>水样数据时间</string>
+         </property>
+        </item>
+        <item row="3" column="1">
+         <property name="text">
+          <string>9489</string>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </item>
+        <item row="3" column="2">
+         <property name="text">
+          <string>零核数据时间</string>
+         </property>
+        </item>
+        <item row="3" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="3" column="4">
+         <property name="text">
+          <string>平行样数据时间</string>
+         </property>
+        </item>
+        <item row="3" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>水样数据时间</string>
+         </property>
+        </item>
+        <item row="4" column="1">
+         <property name="text">
+          <string>289</string>
+         </property>
+        </item>
+        <item row="4" column="2">
+         <property name="text">
+          <string>零核数据时间</string>
+         </property>
+        </item>
+        <item row="4" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="4" column="4">
+         <property name="text">
+          <string>平行样数据时间</string>
+         </property>
+        </item>
+        <item row="4" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>水样数据时间</string>
+         </property>
+        </item>
+        <item row="5" column="1">
+         <property name="text">
+          <string>14660</string>
+         </property>
+        </item>
+        <item row="5" column="2">
+         <property name="text">
+          <string>零核数据时间</string>
+         </property>
+        </item>
+        <item row="5" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="5" column="4">
+         <property name="text">
+          <string>平行样数据时间</string>
+         </property>
+        </item>
+        <item row="5" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>水样实测值</string>
+         </property>
+        </item>
+        <item row="6" column="1">
+         <property name="text">
+          <string>3.203</string>
+         </property>
+        </item>
+        <item row="6" column="2">
+         <property name="text">
+          <string>零核实测值</string>
+         </property>
+        </item>
+        <item row="6" column="3">
+         <property name="text">
+          <string>0.000</string>
+         </property>
+        </item>
+        <item row="6" column="4">
+         <property name="text">
+          <string>平行样实测值</string>
+         </property>
+        </item>
+        <item row="6" column="5">
+         <property name="text">
+          <string>0.000</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>水样数据标识</string>
+         </property>
+        </item>
+        <item row="7" column="1">
+         <property name="text">
+          <string>78</string>
+         </property>
+        </item>
+        <item row="7" column="2">
+         <property name="text">
+          <string>零核数据标识</string>
+         </property>
+        </item>
+        <item row="7" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="7" column="4">
+         <property name="text">
+          <string>平行样数据标识</string>
+         </property>
+        </item>
+        <item row="7" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>水样数据时间</string>
+         </property>
+        </item>
+        <item row="8" column="1">
+         <property name="text">
+          <string>9488</string>
+         </property>
+        </item>
+        <item row="8" column="2">
+         <property name="text">
+          <string>跨核数据时间</string>
+         </property>
+        </item>
+        <item row="8" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>水样数据时间</string>
+         </property>
+        </item>
+        <item row="9" column="1">
+         <property name="text">
+          <string>8720</string>
+         </property>
+        </item>
+        <item row="9" column="2">
+         <property name="text">
+          <string>跨核数据时间</string>
+         </property>
+        </item>
+        <item row="9" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>水样数据时间</string>
+         </property>
+        </item>
+        <item row="10" column="1">
+         <property name="text">
+          <string>13059</string>
+         </property>
+        </item>
+        <item row="10" column="2">
+         <property name="text">
+          <string>跨核数据时间</string>
+         </property>
+        </item>
+        <item row="10" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>标样实测值</string>
+         </property>
+        </item>
+        <item row="11" column="1">
+         <property name="text">
+          <string>1.850</string>
+         </property>
+        </item>
+        <item row="11" column="2">
+         <property name="text">
+          <string>跨核实测值</string>
+         </property>
+        </item>
+        <item row="11" column="3">
+         <property name="text">
+          <string>0.000</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>标样数据标识</string>
+         </property>
+        </item>
+        <item row="12" column="1">
+         <property name="text">
+          <string>78</string>
+         </property>
+        </item>
+        <item row="12" column="2">
+         <property name="text">
+          <string>跨核数据标识</string>
+         </property>
+        </item>
+        <item row="12" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>空白数据时间</string>
+         </property>
+        </item>
+        <item row="13" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="13" column="2">
+         <property name="text">
+          <string>加标数据时间</string>
+         </property>
+        </item>
+        <item row="13" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>空白数据时间</string>
+         </property>
+        </item>
+        <item row="14" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="14" column="2">
+         <property name="text">
+          <string>加标数据时间</string>
+         </property>
+        </item>
+        <item row="14" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_11">
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <widget class="QTableWidget" name="tableWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>511</width>
+          <height>591</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">   QTableWidget {
+           background: transparent;
+		gridline-color: rgb(114, 159, 207);     
+	border-radius: 4px; 
+
+ }
+QTableWidget::item {
+            background: transparent;
+           padding: 5px;		
+ 			text-align: center;
+			color: rgb(0, 0, 0);
+ 			border-left: 1px solid rgb(114, 159, 207);
+}
+ QHeaderView::section:horizontal {
+		background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #f0f8f8,  stop:0.5 #e8f0f0, stop:1 #e0e8e8); 
+      color: rgb(0, 0, 0);                 
+       font-weight: bold;                            
+      border: 1px solid rgb(114, 159, 207);
+ border-radius: 4px;
+	padding: 5px;
+height: 30px;
+ }
+QHeaderView::section:vertical {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 1px solid rgb(114, 159, 207);
+    padding: 5px;
+}
+ QLineEdit {   
+	background: rgb(114, 159, 207);
+	color: rgb(239, 41, 41);
+ border: 1px solid rgb(114, 159, 207);
+ border-radius: 4px;
+    }</string>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderMinimumSectionSize">
+         <number>150</number>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>220</number>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderMinimumSectionSize">
+         <number>25</number>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>32</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>描述</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>数值</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>系统时间年月</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>系统时间日时</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>系统时间分秒</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>工作状态</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>测量模式</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>告警代码</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>故障代码</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>日志代码</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>软件版本</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>测量间隔</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>零点核查间隔</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>跨度核查间隔</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>标样核查间隔</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>运行步骤</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>累计检测时间</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_12">
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <widget class="QTableWidget" name="tableWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1011</width>
+          <height>581</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">   QTableWidget {
+           background: transparent;
+		gridline-color: rgb(114, 159, 207);     
+	border-radius: 4px; 
+
+ }
+QTableWidget::item {
+            background: transparent;
+           padding: 5px;		
+ 			text-align: center;
+			color: rgb(0, 0, 0);
+ 			border-left: 1px solid rgb(114, 159, 207);
+}
+ QHeaderView::section:horizontal {
+		background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #f0f8f8,  stop:0.5 #e8f0f0, stop:1 #e0e8e8); 
+      color: rgb(0, 0, 0);                 
+       font-weight: bold;                            
+      border: 1px solid rgb(114, 159, 207);
+ border-radius: 4px;
+	padding: 5px;
+height: 30px;
+ }
+QHeaderView::section:vertical {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 1px solid rgb(114, 159, 207);
+    padding: 5px;
+}
+ QLineEdit {   
+	background: rgb(114, 159, 207);
+	color: rgb(239, 41, 41);
+ border: 1px solid rgb(114, 159, 207);
+ border-radius: 4px;
+    }</string>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>164</number>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderMinimumSectionSize">
+         <number>30</number>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>35</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>描述</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>数值</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>描述</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>数值</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>描述</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>数值</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>测量精度</string>
+         </property>
+        </item>
+        <item row="0" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="0" column="2">
+         <property name="text">
+          <string>标三测量过程值</string>
+         </property>
+        </item>
+        <item row="0" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="0" column="4">
+         <property name="text">
+          <string>校准系数</string>
+         </property>
+        </item>
+        <item row="0" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>消解温度</string>
+         </property>
+        </item>
+        <item row="1" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="1" column="2">
+         <property name="text">
+          <string>标四浓度</string>
+         </property>
+        </item>
+        <item row="1" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="1" column="4">
+         <property name="text">
+          <string>设备序列号</string>
+         </property>
+        </item>
+        <item row="1" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>消解时长</string>
+         </property>
+        </item>
+        <item row="2" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="2" column="2">
+         <property name="text">
+          <string>标四测量过程值</string>
+         </property>
+        </item>
+        <item row="2" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="2" column="4">
+         <property name="text">
+          <string>二次多项式系数</string>
+         </property>
+        </item>
+        <item row="2" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>量程下限</string>
+         </property>
+        </item>
+        <item row="3" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="3" column="2">
+         <property name="text">
+          <string>标五浓度</string>
+         </property>
+        </item>
+        <item row="3" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="3" column="4">
+         <property name="text">
+          <string>空白标定过程值</string>
+         </property>
+        </item>
+        <item row="3" column="5">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>量程上限</string>
+         </property>
+        </item>
+        <item row="4" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="4" column="2">
+         <property name="text">
+          <string>标五测量过程值</string>
+         </property>
+        </item>
+        <item row="4" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>曲线斜率k</string>
+         </property>
+        </item>
+        <item row="5" column="1">
+         <property name="text">
+          <string>0.00</string>
+         </property>
+        </item>
+        <item row="5" column="2">
+         <property name="text">
+          <string>线性相关系数</string>
+         </property>
+        </item>
+        <item row="5" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>曲线截距b</string>
+         </property>
+        </item>
+        <item row="6" column="1">
+         <property name="text">
+          <string>0.00</string>
+         </property>
+        </item>
+        <item row="6" column="2">
+         <property name="text">
+          <string>试剂一余量%</string>
+         </property>
+        </item>
+        <item row="6" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>标定年月</string>
+         </property>
+        </item>
+        <item row="7" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="7" column="2">
+         <property name="text">
+          <string>测量吸光度</string>
+         </property>
+        </item>
+        <item row="7" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>标定日时</string>
+         </property>
+        </item>
+        <item row="8" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="8" column="2">
+         <property name="text">
+          <string>空白校准时间</string>
+         </property>
+        </item>
+        <item row="8" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>标定分秒</string>
+         </property>
+        </item>
+        <item row="9" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="9" column="2">
+         <property name="text">
+          <string>空白校准时间</string>
+         </property>
+        </item>
+        <item row="9" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>标一浓度</string>
+         </property>
+        </item>
+        <item row="10" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="10" column="2">
+         <property name="text">
+          <string>空白校准时间</string>
+         </property>
+        </item>
+        <item row="10" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>标一测量过程值</string>
+         </property>
+        </item>
+        <item row="11" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="11" column="2">
+         <property name="text">
+          <string>标样校准时间</string>
+         </property>
+        </item>
+        <item row="11" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>标二浓度</string>
+         </property>
+        </item>
+        <item row="12" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="12" column="2">
+         <property name="text">
+          <string>标样校准时间</string>
+         </property>
+        </item>
+        <item row="12" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>标二测量过程值</string>
+         </property>
+        </item>
+        <item row="13" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="13" column="2">
+         <property name="text">
+          <string>标样校准时间</string>
+         </property>
+        </item>
+        <item row="13" column="3">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="14" column="0">
+         <property name="text">
+          <string>标三浓度</string>
+         </property>
+        </item>
+        <item row="14" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="14" column="2">
+         <property name="text">
+          <string>检出限值</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QWidget" name="widget_12" native="true">
+        <property name="geometry">
+         <rect>
+          <x>700</x>
+          <y>280</y>
+          <width>300</width>
+          <height>300</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: transparent;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_10">
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <widget class="QTableWidget" name="tableWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>5</x>
+          <y>0</y>
+          <width>501</width>
+          <height>561</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">   QTableWidget {
+           background: transparent;
+		gridline-color: rgb(114, 159, 207);     
+	border-radius: 4px; 
+
+ }
+QTableWidget::item {
+            background: transparent;
+           padding: 5px;		
+ 			text-align: center;
+			color: rgb(0, 0, 0);
+ 			border-left: 1px solid rgb(114, 159, 207);
+}
+ QHeaderView::section:horizontal {
+		background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #f0f8f8,  stop:0.5 #e8f0f0, stop:1 #e0e8e8); 
+      color: rgb(0, 0, 0);                 
+       font-weight: bold;                            
+      border: 1px solid rgb(114, 159, 207);
+ border-radius: 4px;
+	padding: 5px;
+height: 30px;
+ }
+QHeaderView::section:vertical {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 1px solid rgb(114, 159, 207);
+    padding: 5px;
+}
+ QLineEdit {   
+	background: rgb(114, 159, 207);
+	color: rgb(239, 41, 41);
+ border: 1px solid rgb(114, 159, 207);
+ border-radius: 4px;
+    }</string>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>220</number>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderMinimumSectionSize">
+         <number>30</number>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>36</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>新建行</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>描述</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>数值</string>
+         </property>
+        </column>
+        <item row="0" column="0">
+         <property name="text">
+          <string>跨度值</string>
+         </property>
+        </item>
+        <item row="1" column="0">
+         <property name="text">
+          <string>样品体积/次</string>
+         </property>
+        </item>
+        <item row="1" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="2" column="0">
+         <property name="text">
+          <string>试剂一体积/次</string>
+         </property>
+        </item>
+        <item row="2" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="3" column="0">
+         <property name="text">
+          <string>试剂二体积/次</string>
+         </property>
+        </item>
+        <item row="3" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="4" column="0">
+         <property name="text">
+          <string>试剂三体积/次</string>
+         </property>
+        </item>
+        <item row="4" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="5" column="0">
+         <property name="text">
+          <string>曲线一标液浓度</string>
+         </property>
+        </item>
+        <item row="5" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="6" column="0">
+         <property name="text">
+          <string>曲线一标液信号值</string>
+         </property>
+        </item>
+        <item row="6" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="7" column="0">
+         <property name="text">
+          <string>曲线一B值</string>
+         </property>
+        </item>
+        <item row="7" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="8" column="0">
+         <property name="text">
+          <string>曲线一K值</string>
+         </property>
+        </item>
+        <item row="8" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="9" column="0">
+         <property name="text">
+          <string>曲线二标液浓度</string>
+         </property>
+        </item>
+        <item row="9" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="10" column="0">
+         <property name="text">
+          <string>曲线二标液信号值</string>
+         </property>
+        </item>
+        <item row="10" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="11" column="0">
+         <property name="text">
+          <string>曲线二B值</string>
+         </property>
+        </item>
+        <item row="11" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="12" column="0">
+         <property name="text">
+          <string>曲线二K值</string>
+         </property>
+        </item>
+        <item row="12" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item row="13" column="0">
+         <property name="text">
+          <string>试剂二余量%</string>
+         </property>
+        </item>
+        <item row="13" column="1">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QWidget" name="widget_13" native="true">
+        <property name="geometry">
+         <rect>
+          <x>700</x>
+          <y>280</y>
+          <width>300</width>
+          <height>300</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: transparent;</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_7">
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 italic 13pt &quot;TakaoPGothic&quot;;
+background: transparent;
+color: rgb(52, 101, 164);
+font-weight: bold; </string>
+     </property>
+     <property name="text">
+      <string>RS485通信配置</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>90</y>
+       <width>311</width>
+       <height>491</height>
+      </rect>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>5</y>
+        <width>311</width>
+        <height>470</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_54">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>数据位：8</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_46">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>通讯类型：RS485-2</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_52">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>奇偶校验：无</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_58">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>从站地址：0x01</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_48">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string> 协议：Modubus RTU</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_57">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>主从模式：主站</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_50">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>波特率：115200</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_56">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;</string>
+         </property>
+         <property name="text">
+          <string>停止位：1</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_47">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>40</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 italic 13pt &quot;TakaoPGothic&quot;;
+background: transparent;
+color: rgb(52, 101, 164);
+font-weight: bold; </string>
+     </property>
+     <property name="text">
+      <string>数据采集地址</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_10" native="true">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>100</y>
+       <width>501</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>501</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_51">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>水样检测数据</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_60">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>数据类型</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_66">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>10321</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_49">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>内容</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_62">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>浮点</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_65">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>浮点</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_55">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>水样/标样数据</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_59">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>数据地址</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_53">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>标样检查数据</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_63">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>14115</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="label_61">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>14104</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_67">
+         <property name="styleSheet">
+          <string notr="true">border:2px solid rgb(114, 159, 207);
+background: transparent;
+</string>
+         </property>
+         <property name="text">
+          <string>浮点</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_8">
+    <property name="styleSheet">
+     <string notr="true">background: transparent;</string>
+    </property>
+    <widget class="QLabel" name="label_64">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>60</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 italic 13pt &quot;TakaoPGothic&quot;;
+background: transparent;
+color: rgb(52, 101, 164);
+font-weight: bold; </string>
+     </property>
+     <property name="text">
+      <string>试剂余量</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>190</y>
+       <width>851</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">   QTableWidget {
+           background: transparent;
+		gridline-color: rgb(114, 159, 207);
+		border-radius: 8px;
+		 outline: 0;
+        }
+        QTableWidget::item {
+            background: transparent;
+		border: 1px solid rgb(114, 159, 207);   /* 添加外边框 */
+           padding: 5px;		
+ 			text-align: center;
+			color: rgb(0, 0, 0);
+        }
+ QHeaderView::section:horizontal {
+background: transparent;
+      color: rgb(0, 0, 0);                 
+       font-weight: bold;         
+       font-size: 12pt;                      
+      border: 1px solid rgb(114, 159, 207);
+	border-radius: 4px;
+ }
+ QHeaderView::section:vertical  {
+background: transparent;
+border-radius: 4px;
+      color: rgb(0, 0, 0);                 
+       font-weight: bold;         
+       font-size: 12pt;                      
+       border: 1px solid rgb(114, 159, 207);
+ }
+QTableCornerButton::section {
+background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #f0f8f8,  stop:0.5 #e8f0f0, stop:1 #e0e8e8);
+ border-radius: 4px;  
+border: 1px solid rgb(114, 159, 207);
+
+}
+QHeaderView  {
+		background: transparent;
+ }
+ QLineEdit {   
+	background: rgb(114, 159, 207);
+	color: rgb(239, 41, 41);
+  border: 1px solid rgb(114, 159, 207); 
+ border-radius: 4px;
+    }
+QTableWidget::item:selected {
+    border: 1px solid green;   
+}
+QTableWidget::item:focus {
+    border: 1px dotted green;
+}</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>140</number>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderMinimumSectionSize">
+      <number>20</number>
+     </attribute>
+     <attribute name="verticalHeaderDefaultSectionSize">
+      <number>35</number>
+     </attribute>
+     <row>
+      <property name="text">
+       <string>满瓶体积(ml)</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>实际体积(ml)</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>余量%</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>试剂一</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>试剂二</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>试剂三</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>蒸馏水</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>反应废液</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>清洗废液</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>593</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QListWidget {  
+	background: rgb(114, 159, 207);      
+	color: rgb(255, 255, 255);
+ border-radius: 10px;
+	font: 10pt ;
+        }
+        QListWidget::item {
+          border: none;
+		border-radius: 10px;
+		padding: 28px 13px;
+ background: transparent;
+        }
+        QListWidget::item:selected {     
+		background: rgb(138, 226, 52);
+		border-bottom: rgb(114, 159, 207);
+         font-weight: bold;
+        }
+        QListWidget::item:hover:!selected {     
+	background: rgb(114, 159, 207);
+        }
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 0px; /* 设置为0以完全隐藏 */
+}
+
+QScrollBar::handle:horizontal {
+    background: transparent;
+}</string>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="movement">
+    <enum>QListView::Static</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>检测数据</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>标定数据</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>状态数据</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>日志报警</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>操作日志</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>上传平台</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>通讯协议</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>试剂余量</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </item>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>20</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>10</y>
+     <width>20</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>0</y>
+     <width>1141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>610</y>
+     <width>1141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;
+</string>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

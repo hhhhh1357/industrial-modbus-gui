@@ -1,0 +1,2526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tiaoshi</class>
+ <widget class="QWidget" name="tiaoshi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>121</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>111</width>
+      <height>237</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget {  
+	background: rgb(114, 159, 207);      
+	color: rgb(255, 255, 255);
+	font: 10pt ;
+        }
+        QListWidget::item {
+          border: none;
+		border-radius: 10px;
+		padding: 50px 13px;
+ background: transparent;
+        }
+        QListWidget::item:selected {     
+		background: rgb(138, 226, 52);
+		border-bottom: rgb(114, 159, 207);
+         font-weight: bold;
+        }
+        QListWidget::item:hover:!selected {     
+	background: rgb(114, 159, 207);
+        }
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 0px; /* 设置为0以完全隐藏 */
+}
+
+QScrollBar::handle:horizontal {
+    background: transparent;
+}</string>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="movement">
+     <enum>QListView::Static</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>单步调试</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>多步调试</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>10</y>
+     <width>20</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>0</y>
+     <width>1141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>610</y>
+     <width>1141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>1260</x>
+     <y>10</y>
+     <width>20</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: transparent;</string>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="midLineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>20</y>
+     <width>1121</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page_11"/>
+   <widget class="QWidget" name="page_3">
+    <widget class="QStackedWidget" name="stackedWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>0</y>
+       <width>991</width>
+       <height>591</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent;</string>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="page_6"/>
+     <widget class="QWidget" name="page_7">
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>111</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <property name="text">
+        <string>阀动作：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>20</y>
+         <width>129</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <property name="text">
+        <string>泵动作：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>90</y>
+         <width>129</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <property name="text">
+        <string>运行圈数：</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>150</y>
+         <width>140</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+       </property>
+       <property name="text">
+        <string>启动正转</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_24">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>150</y>
+         <width>140</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+       </property>
+       <property name="text">
+        <string>启动反转</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="geometry">
+        <rect>
+         <x>660</x>
+         <y>90</y>
+         <width>91</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px; </string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_10" native="true">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>260</y>
+         <width>300</width>
+         <height>320</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>451</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>试剂一</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>试剂二</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>试剂三</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="pushButton_10">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>清洗废液</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="pushButton_11">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>废液阀</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QPushButton" name="pushButton_12">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>水样阀</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="pushButton_13">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>标样阀</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="pushButton_14">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>标核查</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QPushButton" name="pushButton_15">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>采水泵</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="pushButton_16">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>比色阀</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QPushButton" name="pushButton_17">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>消解下</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="pushButton_18">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>换气扇</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QPushButton" name="pushButton_19">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>蒸馏水</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="pushButton_20">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>消解上</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QPushButton" name="pushButton_21">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>冷却风</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QPushButton" name="pushButton_22">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+          </property>
+          <property name="text">
+           <string>超标输出</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>280</y>
+         <width>331</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <property name="text">
+           <string>低位信号：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_44">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color:red；
+    background: transparent;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;</string>
+          </property>
+          <property name="text">
+           <string>高位信号：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_45">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+    color:red；
+    background: transparent;
+}</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <zorder>layoutWidget</zorder>
+      <zorder>layoutWidget</zorder>
+      <zorder>widget_10</zorder>
+      <zorder>label</zorder>
+      <zorder>label_2</zorder>
+      <zorder>label_3</zorder>
+      <zorder>pushButton_23</zorder>
+      <zorder>pushButton_24</zorder>
+      <zorder>lineEdit_6</zorder>
+     </widget>
+     <widget class="QWidget" name="page_8">
+      <widget class="QPushButton" name="pushButton_35">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>70</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+       </property>
+       <property name="text">
+        <string>启动校准</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>245</width>
+         <height>80</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_24">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font: 9pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>高离散输入通道1：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QRadioButton" name="radioButton">
+          <property name="styleSheet">
+           <string notr="true">QRadioButton::indicator {
+       width: 30px;
+      height: 30px;
+      border-radius: 10px;
+    border: 2px solid black;
+   background: transparent;
+   }
+  QRadioButton::indicator:checked {
+		border: 2px solid black;
+        background-color: rgb(138, 226, 52);
+    }
+  QRadioButton::indicator:unchecked  {
+		border: 2px solid black;
+        background-color: rgb(239, 41, 41);
+    }</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_25">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font: 9pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>高离散输入通道2：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QRadioButton" name="radioButton_2">
+          <property name="styleSheet">
+           <string notr="true">QRadioButton::indicator {
+       width: 30px;
+      height: 30px;
+      border-radius: 10px;
+    border: 2px solid black;
+   background: transparent;
+   }
+  QRadioButton::indicator:checked {
+		border: 2px solid black;
+        background-color: rgb(138, 226, 52);
+    }
+  QRadioButton::indicator:unchecked  {
+		border: 2px solid black;
+        background-color: rgb(239, 41, 41);
+    }</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>210</y>
+         <width>231</width>
+         <height>45</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+font: 8pt &quot;Ubuntu&quot;;</string>
+       </property>
+       <property name="text">
+        <string>非必要勿调整,复位后生效</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>181</width>
+         <height>45</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font-weight: bold; </string>
+       </property>
+       <property name="text">
+        <string>液位信号校准：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>851</width>
+         <height>73</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font: 9pt &quot;Ubuntu&quot;;</string>
+       </property>
+       <property name="text">
+        <string>先将比色皿加满蒸馏水，然后调节比色皿电流使比色皿信号在20000～30000之间正常。</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_9" native="true">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>260</y>
+         <width>300</width>
+         <height>320</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>860</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_21">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font-weight: bold; </string>
+          </property>
+          <property name="text">
+           <string>液位信号校准：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_22">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font: 9pt &quot;Ubuntu&quot;;</string>
+          </property>
+          <property name="text">
+           <string>先排空计量管，然后再启动校准，液位信号在1200 | 1400则表示正常</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>380</y>
+         <width>511</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_35">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>比色信号：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_36">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+          </property>
+          <property name="text">
+           <string>656</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_37">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>比色电流(x0.1):</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="3">
+         <widget class="QLineEdit" name="lineEdit_5">
+          <property name="styleSheet">
+           <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px; </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>197</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_26">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>低位信号:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLabel" name="label_23">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+</string>
+          </property>
+          <property name="text">
+           <string>12345</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_27">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>高位信号:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_31">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+          </property>
+          <property name="text">
+           <string>12345</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>170</y>
+         <width>271</width>
+         <height>90</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_28">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>低位电流值:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEdit_2">
+          <property name="styleSheet">
+           <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px; </string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_29">
+          <property name="styleSheet">
+           <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>高位电流值:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="lineEdit_4">
+          <property name="styleSheet">
+           <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px; </string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_9">
+      <widget class="QLabel" name="label_43">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>141</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font-weight: bold; </string>
+       </property>
+       <property name="text">
+        <string>加热测试：</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_51">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>90</y>
+         <width>116</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <property name="text">
+        <string>实时温度:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_52">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>170</y>
+         <width>116</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <property name="text">
+        <string>实时脉宽:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_53">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>90</y>
+         <width>91</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_54">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>170</y>
+         <width>91</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;
+color: rgb(239, 41, 41);
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_36">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>270</y>
+         <width>140</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(138, 226, 52);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+       </property>
+       <property name="text">
+        <string>消解温控</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_37">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>270</y>
+         <width>140</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(138, 226, 52);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+       </property>
+       <property name="text">
+        <string>持续温控</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_38">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>340</y>
+         <width>140</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background: rgb(239, 41, 41);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+       </property>
+       <property name="text">
+        <string>停止温控</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_11" native="true">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>260</y>
+         <width>300</width>
+         <height>320</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>320</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_13" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>281</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <widget class="QWidget" name="gridLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>253</width>
+          <height>350</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout" rowminimumheight="40,40,40,40,40,40,0" columnminimumwidth="100,100">
+         <property name="horizontalSpacing">
+          <number>5</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>10</number>
+         </property>
+         <item row="3" column="0">
+          <widget class="QLabel" name="Label_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>I:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="LineEdit_3">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="Label_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>P:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="Label_6">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>最大脉宽:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLineEdit" name="LineEdit_5">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="LineEdit_6">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="LineEdit_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="LineEdit">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="Label_5">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>D:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="Label">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>目标温度:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="Label_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="text">
+            <string>保温时长:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="LineEdit_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="Label_7">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 9pt &quot;Ubuntu&quot;;
+color: rgb(239, 41, 41);</string>
+           </property>
+           <property name="text">
+            <string>（复位生效）</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_10">
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>271</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;
+color: rgb(0, 0, 0);
+font-weight: bold; </string>
+       </property>
+       <property name="text">
+        <string>4-20MA模拟量调试：</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_8" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>351</width>
+         <height>521</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+       <widget class="QPushButton" name="pushButton_42">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>50</y>
+          <width>156</width>
+          <height>65</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>标定上限电流</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_44">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>170</y>
+          <width>156</width>
+          <height>65</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>标定下限电流</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_46">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>280</y>
+          <width>156</width>
+          <height>65</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>测试电流输出</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_48">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>390</y>
+          <width>156</width>
+          <height>65</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(138, 226, 52);
+	color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>返回工作模式</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>13</x>
+          <y>13</y>
+          <width>106</width>
+          <height>441</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_10">
+         <item row="5" column="0">
+          <widget class="QLineEdit" name="lineEdit_7">
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_41">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>测试值</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLineEdit" name="lineEdit_3">
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="7" column="0">
+          <widget class="QLineEdit" name="lineEdit_8">
+           <property name="styleSheet">
+            <string notr="true">background: rgb(114, 159, 207);
+color: rgb(239, 41, 41);
+border-radius: 6px;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_39">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>上限电流</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_40">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>下限电流</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_42">
+           <property name="styleSheet">
+            <string notr="true">background: transparent;
+color: rgb(0, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string>检测量程</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_12" native="true">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>260</y>
+         <width>300</width>
+         <height>320</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>320</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent;</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QListWidget" name="listWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>125</width>
+       <height>475</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QListWidget {  
+	background: rgb(114, 159, 207);      
+	color: rgb(255, 255, 255);
+ 	border-radius: 10px;
+	font: 10pt ;
+        }
+        QListWidget::item {
+ 		text-align: center;
+          border: none;
+		border-radius: 10px;
+		padding: 50px 13px;
+ background: transparent;
+        }
+        QListWidget::item:selected {     
+		background: rgb(138, 226, 52);
+		border-bottom: rgb(114, 159, 207);
+         font-weight: bold;
+ 		text-align: center;
+        }
+        QListWidget::item:hover:!selected {     
+	background: rgb(114, 159, 207);
+ text-align: center;
+        }
+
+QScrollBar:horizontal {
+    background: transparent;
+    height: 0px; /* 设置为0以完全隐藏 */
+}
+
+QScrollBar::handle:horizontal {
+    background: transparent;
+}</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="movement">
+      <enum>QListView::Static</enum>
+     </property>
+     <item>
+      <property name="text">
+       <string>泵阀调试</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>信号调试</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>温度调试</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>模拟量调试</string>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>540</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_11">
+      <item row="3" column="1">
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>采量程样</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>自动装载</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QPushButton" name="pushButton_27">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>采试剂一</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(252, 175, 62);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>高位</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QPushButton" name="pushButton_31">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>自动排空</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label_9">
+        <property name="maximumSize">
+         <size>
+          <width>145</width>
+          <height>44</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>自动流程</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_8">
+        <property name="maximumSize">
+         <size>
+          <width>145</width>
+          <height>44</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>执行排液</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QPushButton" name="pushButton_28">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>采试剂二</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QPushButton" name="pushButton_29">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>采试剂三</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="pushButton_30">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>排至废液桶</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QPushButton" name="pushButton_33">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>自动清洗</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QPushButton" name="pushButton_26">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>采比色池</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="pushButton_25">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>采蒸馏水</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="maximumSize">
+         <size>
+          <width>145</width>
+          <height>44</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold; </string>
+        </property>
+        <property name="text">
+         <string>位置选择</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>排至清洗液</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>采水样</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2" colspan="2">
+       <widget class="QPushButton" name="pushButton_34">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(252, 175, 62);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>终止</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="pushButton_32">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>排至比色池</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_7">
+        <property name="maximumSize">
+         <size>
+          <width>144</width>
+          <height>44</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>执行采液</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background: rgb(114, 159, 207);
+color: rgb(0, 0, 0);
+border-radius: 6px
+}
+QPushButton:pressed {
+	background: rgb(78, 154, 6);
+    padding-top: 11px;
+    padding-bottom: 9px;
+}</string>
+        </property>
+        <property name="text">
+         <string>采样核查</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2" colspan="2">
+       <widget class="QLabel" name="label_10">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2" colspan="2">
+       <widget class="QLabel" name="label_11">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="2" colspan="2">
+       <widget class="QLabel" name="label_12">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>230</y>
+       <width>524</width>
+       <height>185</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold; </string>
+        </property>
+        <property name="text">
+         <string>低位指示灯</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="label_47">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLabel" name="label_48">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="label_20">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold; </string>
+        </property>
+        <property name="text">
+         <string>比色长温度</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_15">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold; </string>
+        </property>
+        <property name="text">
+         <string>高位指示灯</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_34">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_18">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold; </string>
+        </property>
+        <property name="text">
+         <string>比色信号</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLabel" name="label_46">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="label_19">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold; </string>
+        </property>
+        <property name="text">
+         <string>高位信号</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_17">
+        <property name="styleSheet">
+         <string notr="true">background: transparent;
+color: rgb(64, 191, 158);
+font-weight: bold; </string>
+        </property>
+        <property name="text">
+         <string>低位信号</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QRadioButton" name="radioButton_3">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton::indicator {
+       width: 30px;
+      height: 30px;
+      border-radius: 10px;
+    border: 2px solid black;
+   background: transparent;
+   }
+  QRadioButton::indicator:checked {
+		border: 2px solid black;
+        background-color: rgb(138, 226, 52);
+    }
+  QRadioButton::indicator:unchecked  {
+		border: 2px solid black;
+        background-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QRadioButton" name="radioButton_4">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton::indicator {
+       width: 30px;
+      height: 30px;
+      border-radius: 10px;
+    border: 2px solid black;
+   background: transparent;
+   }
+  QRadioButton::indicator:checked {
+		border: 2px solid black;
+        background-color: rgb(138, 226, 52);
+    }
+  QRadioButton::indicator:unchecked  {
+		border: 2px solid black;
+        background-color: rgb(239, 41, 41);
+    }</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
