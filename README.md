@@ -2,19 +2,19 @@
 
 基于 Qt5 的通用工业 **Modbus 上位机图形界面**程序及整机配套资料（库源码、数据库、T113 底板硬件、系统镜像说明），合并归档，便于统一版本管理。
 
-> ⚠️ 系统镜像（固件 `.img`，约 392MB）因超过 GitHub 单文件 100MB 上限，未纳入本仓库，见 [Modbuscailiao/系统镜像/说明.txt](Modbuscailiao/系统镜像/说明.txt)。
+> ⚠️ 系统镜像（固件 `.img`，约 392MB）因超过 GitHub 单文件 100MB 上限，未纳入本仓库，见 [Resources/系统镜像/说明.txt](Resources/系统镜像/说明.txt)。
 
 ## 目录结构
 
 ```
 industrial-modbus-gui/
-├── Modbus20260603/              # 上位机软件源码（Qt5 完整工程）
+├── ModbusGUI/                   # 上位机软件源码（Qt5 完整工程）
 │   ├── ModbusQt.pro             # qmake 工程文件
 │   ├── *.cpp / *.h / *.ui       # 各界面(主页/设置/运行/调试/查询/登录/屏3)
 │   ├── modbusrtu / modbustcp    # Modbus RTU / TCP 通信
 │   ├── sqlitemanager            # SQLite 数据库封装
 │   └── Images/                  # 界面用到的图片资源
-└── Modbuscailiao/               # 配套资料
+└── Resources/                   # 配套资料
     ├── libmodbus库/             # libmodbus 源码(zip)：ubuntu 版 / 3.1.7
     ├── Sqlite库/ZongLin.db      # SQLite 数据库模板
     ├── 硬件/T113底板/           # T113 底板硬件文件(Gerber/BOM/贴片/立创EDA工程)
@@ -33,7 +33,7 @@ Qt5 编写的 Modbus 采集/显示上位机，一套代码两个目标平台，�
 
 **依赖：**
 - Qt 5（`core gui widgets serialport sql`）
-- libmodbus（源码见 `Modbuscailiao/libmodbus库/`，需自行编译/安装）
+- libmodbus（源码见 `Resources/libmodbus库/`，需自行编译/安装）
 - SQLite（Qt 自带 `sql` 模块即可）
 
 **编译前请注意：** `ModbusQt.pro` 中硬编码了本机路径
@@ -42,7 +42,7 @@ Qt5 编写的 Modbus 采集/显示上位机，一套代码两个目标平台，�
 
 ## 硬件说明
 
-`Modbuscailiao/硬件/T113底板/` 为 T113 最小系统底板的完整设计输出：
+`Resources/硬件/T113底板/` 为 T113 最小系统底板的完整设计输出：
 
 | 文件 | 内容 |
 |------|------|
@@ -53,7 +53,7 @@ Qt5 编写的 Modbus 采集/显示上位机，一套代码两个目标平台，�
 
 ## 使用建议
 
-1. 先在本机（Ubuntu）打开 `Modbus20260603/ModbusQt.pro` 编译调试；
+1. 先在本机（Ubuntu）打开 `ModbusGUI/ModbusQt.pro` 编译调试；
 2. 确认无误后再用工具链交叉编译出 ARM 版本，随镜像烧录到 T113 开发板；
 3. 把数据库模板放到板端 `/opt/Data_lib/ZongLin.db`。
 
