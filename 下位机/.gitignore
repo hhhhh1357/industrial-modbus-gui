@@ -1,0 +1,39 @@
+# =====================================================================
+# 下位机（Device）忽略清单
+# 仓库只保存"可再次打开 / 编译 / 再生成"的源码与工程配置；
+# 编译产物、工具链缓存、个人配置、以及未引用的超大第三方子库一律不入库。
+# 注意：gitignore 不支持行尾注释，说明一律独立成行。
+# =====================================================================
+
+# --- Keil MDK-ARM 编译产物与个人配置（Device.uvprojx、startup_*.s、RTE 需入库） ---
+
+# 个人选项 / 界面布局（每台电脑不一样）
+MDK-ARM/*.uvoptx
+MDK-ARM/*.uvguix.*
+
+# 调试器会话配置 / VS Code 辅助文件
+MDK-ARM/DebugConfig/
+MDK-ARM/.vscode/
+MDK-ARM/EventRecorderStub.scvd
+
+# 编译输出（含旧目标名 CO2_sensor 的历史编译目录）
+MDK-ARM/*.lst
+MDK-ARM/*.axf
+MDK-ARM/*.hex
+MDK-ARM/*.dep
+MDK-ARM/CO2_sensor/
+
+# --- Source Insight 工程缓存（约 80MB 纯缓存） ---
+Untitled Project.si4project/
+
+# --- CubeMX 本机工程元数据（含本机绝对路径） ---
+.mxproject
+
+# --- CMSIS 中本工程未引用的大体积子库（换机编译不需要，整目录可从本地删除） ---
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/docs/
